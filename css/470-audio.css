@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+#wrap{
+    width: 900px;
+    margin: 100px auto;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+section{padding: 0 50px;}
+
+section>audio{
+    display: block;
+    margin: 0 auto;
+}
+
+section>.controls{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+section>.controls>button{
+    display: block;
+    width: 200px;
+    height: 30px;
+}
+
+section>.controls>button.play{}
+section>.controls>button.pause{}
+section>.controls>button.resume{}
+
+section>ol{margin-top: 50px;}
+
+footer>address{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
